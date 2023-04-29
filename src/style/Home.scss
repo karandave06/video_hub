@@ -1,0 +1,46 @@
+@import './Main.scss';
+img{
+    height:100%;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+.stackcontent{
+    display: flex;
+    flex-direction: row;
+    @include size1200{
+        flex-direction: column;
+    }
+
+    .text{
+        @include size750{
+            font-size: 14px;
+            line-height: 18px;
+            padding: 1.2rem;
+        }
+
+        @include size420{
+            font-size: 10px;
+            padding: 2rem;
+            line-height: 13px;
+           
+        }
+    }
+
+}
+
+
+p{
+    @include size750{
+        font-size: 1.2rem;
+    }
+}
+
+.text-div{
+   padding-top: 5rem;
+    @include size420{
+
+        width: 160%;
+    }
+}

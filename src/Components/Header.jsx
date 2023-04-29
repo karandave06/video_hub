@@ -16,8 +16,9 @@ import { Stack, HStack, VStack } from '@chakra-ui/react';
 const Header = () => {
   const {isOpen,onOpen,onClose} = useDisclosure();
   return (
-    <div style={{zIndex:"999999"}}>
+    <div>
       <Button
+      zIndex={'overlay'}
         pos={"fixed"}
         top={"4"}
         left={"4"}

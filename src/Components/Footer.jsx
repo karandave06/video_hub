@@ -1,4 +1,4 @@
-import { Box, Button, HStack,Text, Heading, Input, Stack, VStack } from "@chakra-ui/react"
+import { Box, Button, HStack,Text, Heading, Input,  VStack } from "@chakra-ui/react"
 import {AiOutlineSend} from 'react-icons/ai'
 import '../style/footer.scss'
 
@@ -9,7 +9,7 @@ const Footer = () => {
     <div>
       <Box bgColor={'blackAlpha.900'} minH={'40'} p='16' color={'white'}>
 
-        <Stack className="footer" direction={['column', 'row']}>
+        <div className="footer" direction={[ 'column' ,'row']}>
             <VStack alignItems={"stretch"} w={"full"} px={"4"}>
                 <Heading size={'md'} textTransform={'uppercase'}>
                     Suscribe to get updated
@@ -72,7 +72,7 @@ Social Media</Heading>
             </VStack>
 
 
-        </Stack>
+        </div>
       </Box> 
     </div>
   )

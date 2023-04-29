@@ -9,8 +9,13 @@ img{
 .stackcontent{
     display: flex;
     flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
     @include size1200{
         flex-direction: column;
+
     }
 
     .text{

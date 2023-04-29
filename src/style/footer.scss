@@ -1,5 +1,13 @@
+@import './Main.scss';
 .footer{
     display: flex;
-    flex-direction: column;
-    gap: 2rem;
+    flex-direction: row;
+
+
+    @include size750{
+
+       
+        flex-direction: column;
+        gap: 2rem;
+    }
 }

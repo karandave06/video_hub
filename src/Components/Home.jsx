@@ -32,10 +32,12 @@ const Home = () => {
   Services
 </Heading>
 
-<Stack className="stackcontent"  h="full"
-p="4"
-alignItems="center"
-direction={["column","row"]}>
+<div className="stackcontent"  
+// h="full"
+// p="4"
+// alignItems="center"
+// direction={["column","row"]}
+>
 
 <Image src={imag5} h={['40', '400']} filter={"hue-rotate(-130deg)"}/>
 <div className="text-div">
@@ -46,7 +48,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi earum vitae incid
  </Text>
  </div>
 
-</Stack>
+</div>
 </Container>
     </Box>
 

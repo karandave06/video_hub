@@ -10,17 +10,13 @@ import {
 } from "@chakra-ui/react";
 import { BiMenuAltLeft } from "react-icons/bi";
 import {Link} from "react-router-dom";
-import { HStack, VStack } from '@chakra-ui/react';
-import imag1 from '../assets/1.jpg'
-import imag2 from '../assets/2.jpg'
-import imag3 from '../assets/3.jpg'
-import imag4 from '../assets/4.jpg'
-import imag5 from '../assets/5.png'
+import { Stack, HStack, VStack } from '@chakra-ui/react';
+
 
 const Header = () => {
   const {isOpen,onOpen,onClose} = useDisclosure();
   return (
-    <div>
+    <div style={{zIndex:"999999"}}>
       <Button
         pos={"fixed"}
         top={"4"}

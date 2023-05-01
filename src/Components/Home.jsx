@@ -1,7 +1,7 @@
 import { Box, Heading,Container,Button } from "@chakra-ui/react"
 import {Carousel} from 'react-responsive-carousel'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
-import { Stack,Image,Text } from "@chakra-ui/react"
+import {Image,Text } from "@chakra-ui/react"
 
 import imag1 from '../assets/1.jpg'
 import imag2 from '../assets/2.jpg'
